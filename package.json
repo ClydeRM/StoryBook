@@ -1,0 +1,19 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "For practice create a booksotre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClydeRM/StoryBook.git"
+  },
+  "author": "Clyde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClydeRM/StoryBook/issues"
+  },
+  "homepage": "https://github.com/ClydeRM/StoryBook#readme"
+}
