@@ -13,10 +13,10 @@ morgan
 passport 
 passport-google-oauth20 
 * express create routes controllers
-* mongoose work our databse
+* mongoose work our database
 * connect-mongo allow our session to access our database
 * express-session access our session and Cookies
-* express-handlebars a temp engine for frontend output json
+* express-handlebars a javascript template engine
 * dotenv to configure
 * method-override override request methods
 * moment to format dates
