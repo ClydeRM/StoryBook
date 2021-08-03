@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const exphbs = require('express-handlebars');
 const passport = require('passport');
 const session = require('express-session');
-const connectDB = require('./config/db.js');
+const connectDB = require('./config/db');
 
 // Load config
 dotenv.config({ path: "./config/config.env" });
@@ -13,8 +13,10 @@ dotenv.config({ path: "./config/config.env" });
 // Passport configure
 require('./config/passport')(passport);
 
+// Connect MongoDB cloud
 connectDB();
 
+// Create app
 const app = express();
 
 // Logging
@@ -44,7 +46,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/', require('./routes/index'));
 app.use('/auth', require('./routes/auth'));
 
-
+// Listening PORT
 const PORT = process.env.PORT || 3000;
 
 app.listen(

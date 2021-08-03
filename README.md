@@ -25,4 +25,4 @@ passport-google-oauth20
 
 ## Dev dependencies
 npm install -D nodemon cross-env
-* cross-env detects platform (windows or mac ..)
+* cross-env setup run model
