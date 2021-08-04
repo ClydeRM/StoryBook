@@ -30,5 +30,7 @@ npm install -D nodemon cross-env
 
 ## Start project
 npm install
+
 npm run dev 
+
 npm start
